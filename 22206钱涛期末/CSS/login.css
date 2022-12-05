@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 1500;
+    height: 600px;
+    background-image: url(../image/登录页面图2.jpg);
+    background-repeat: no-repeat;
+}
+form{
+    width: 800px;
+    height: 450px;
+    border: 1px solid red;
+    margin: 200px 700px;
+    background-color: aliceblue;
+    border-radius: 20px 0 0 20px;
+}
+
+.form_a{
+    width: 61%;
+    height: 85%;
+    border: 1px solid red;
+    margin-top: 4%;
+    margin-left: 3%;
+    background-image: url(../image/登录页面图2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 180%;
+    border-radius: 20px 0 0 20px;
+}
