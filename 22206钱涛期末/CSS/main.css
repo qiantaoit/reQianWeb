@@ -94,6 +94,7 @@ body{
     border-radius: 10px;
     background-color: black;
     border: 1px solid #fff;
+    color: #fff;
 }
 
 .nav_li2{
@@ -138,13 +139,13 @@ body{
 
 .news_1{
     width: 550px;
-    height: 350px;
+    height: 380px;
     display:inline-block;
     margin:40px 0 0 40px;
 }
 
 .news_1 p{
-    width: 560px;
+    width: 550px;
     height: 90px;
     background-color: black;
     color: #fff;
@@ -153,10 +154,16 @@ body{
 }
 .news_1 img{
     width: 551px;
-    height: 350px;
+    height: 380px;
     display:inline-block;
-    border: 5px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
 }
+
+/* 轮播图大小 */
+.swiper{
+    width: 100%;
+    height: 100%;
+}  
 
 .news_2{
     width: 250px;
@@ -258,6 +265,130 @@ audio{
 
 
 /* eva说明 */
+.eva_add{
+    width: 1000px;
+    height: 2000px;
+    bottom: 1px solid #000;
+    background-color: rgb(250, 250, 250,0.8);
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.eva_add .jianjie{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.eva_text1{
+    width: 1000px;
+    height: 380px;
+    margin-top: 20px;
+    font-family: serif;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.eva_text1 img{
+    width: 330px;
+    height: 380px;
+    float: right;
+    border-radius: 10px;
+}
+
+.eva_text1 .p1{
+    color: rgb(88, 88, 88);
+    font-size: 16px;
+}
+.eva_text1 p{
+    font-size: 19px;
+}
+
+.eva_add h2{
+    margin-left: 30px;
+}
 
 
+/* 人物介绍开始 */
+
+.renwu{
+    width: 100%;
+    height: 180px;
+
+    padding: 20px 0;
+}
+
+
+.renwu img{
+    width: 120px;
+    height: 180px;
+
+    margin-left: 20px;
+    float:left;
+}
+
+.renwu ul{
+
+    margin-right: 130px;
+    width: 700px;
+    height: 100%;
+    float: right;
+}
+
+.renwu ul .ren_li1{
+    margin-bottom: 10px;
+}
+.renwu ul .ren_li2 em{
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+.renwu ul .ren_li2{
+    margin-bottom: 35px;
+    font-size: 12px;
+}
+.renwu ul .ren_li3{
+    font-size: 14px;
+}
+/* 人物介绍结束 */
 /* eva说明结束 */
+
+
+/* 围栏开始 */
+.tila{
+
+    height: 300px;
+    margin-top: 200px;
+    background-color: #000;
+    color: #fff;
+    padding: 0 100px;
+    padding-top: 50px;
+}
+
+.tila .box1{
+    width: 250px;
+    height: 60%;
+    float: left;
+    margin-right: 50px;
+}
+.box1 dl dt{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.dd_tila{
+    width: 100%;
+    height: 60%;
+}
+
+.tila .box2{
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    color: rgb(109, 109, 109);
+}
+
+
+
+
+/* 围栏结束 */
+

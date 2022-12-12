@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +7,8 @@
     <title>欢迎来到Eva官网</title>
     <link  rel="shortcut icon" href="../image/logo.ico">
     <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/swiper-bundle.min.css">
 </head>
-
-
 <body>
     
     <!-- 导航栏开始 -->
@@ -20,7 +19,7 @@
             <li><a href="../HTML/index.html" target="_blank">首页</a></li>
             <li><a href="#">新发布</a></li>
             <li><a href="#worksA">相关作品</a></li>
-            <li><a href="#">EVA</a></li>
+            <li><a href="#jianjie">EVA</a></li>
         </ul>
         <!-- 搜索栏 -->
         <ul class="navget">
@@ -35,14 +34,26 @@
        
 
     <!-- 新发布开始 -->
-        <div class="news">
-            
-            <div class="news_1">
+        <div class="news"> 
+            <!-- 轮播图开始 -->
+            <div class="news_1">  
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="../image/lun3.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="../image/lun4.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="../image/lun6.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
                 <a href="#">
-                    <img src="../image/预告图.jpg" alt="">
+                    <!-- <img src="../image/预告图.jpg" alt=""> -->
                 <p>《EVA新世纪福音战士剧场版：终》 &nbsp;EVA新剧场版完结篇预计2023年春季上映，时隔14年少年的救赎。成为“第三次冲击”元凶的碇真嗣，变得像废人一样……真嗣还能振作起来吗？2012年《福音战士新剧场版：Q》之后，这部动画讲述了被封印的故事的后续。</p>
                 </a>
             </div>
+
+            <!-- 轮播图结束 -->
             <div class="news_2">
                 <a href="#">
                     <img src="../image/x2.jpg" alt="图片无法显示">
@@ -99,8 +110,147 @@
 
 
     <!-- eva说明 -->
-            <div></div>
+            <div class="eva_add">
+               
+                <h1 class="jianjie" id="jianjie">简介</h1>
+                <div class="eva_text1">
+                    <p><img src="../image/说明图片.jfif" alt=""></p>
+                    <h1>新世纪福音战士</h1>
+                <br>
+                <p class="p1">日本1995年庵野秀明执导的电视动画作品</p>
+                <br>
+                <p class="p2">《新世纪福音战士》是由GAINAX、龙之子工作室共同制作的日本动画作品，简称EVA。于1995年10月4日-1996年3月27日在日本东京电视台首播，全26集。由庵野秀明担任主要编剧及总导演，贞本义行担任角色设计，绪方惠美、林原惠美、宫村优子、三石琴乃等人担任主要配音。</p>
+                <br>
+                <p>作品以发生了“第二次冲击”大灾害的2015年的世界为舞台，主要讲述了14岁少年少女们操控巨大泛用人形决战兵器“EVA”，与袭击第3新东京市的神秘敌人“使徒”之间的战斗故事。</p>
+                <br>
+                <p>该片播放期间收视率低迷，但是剧终后在社会上引起了毁誉参半的强烈反响。它与1970年代的《宇宙战舰大和号》及1980年代的《机动战士高达》并肩，成为了对后世动画作品产生影响的第三代动画作品，引发了动画热潮。1997年，公映了与电视动画系列结局（第25集和最终集）有所不同的剧场版动画《新世纪福音战士 Air/真心为你》。
+                </p>
+                
+                </div>
+                
+                <h2>角色介绍</h2>
+
+                <div class="renwu">
+                    <img src="../image/碇真嗣.jfif" alt="">
+                    <ul>
+                        <li class="ren_li1"><a href="#">碇真嗣</a></li>
+                        <li class="ren_li2"><em>演员</em>配音演员</li>
+                        <li class="ren_li3">本故事的主角，EVA初号机的驾驶员。有着极端内向的性格，极其害怕与陌生人接触，不知如何和别人相处而感到害怕，一直只是照着别人的要求而生活，之后慢慢地敞开了心扉。“碇”在日文中的意思是锚，“真嗣”则出自本作特摄影监督樋口真嗣。</li>
+                    </ul>
+                    
+                </div>
+                <hr>
+                
+                <div class="renwu">
+                    <img src="../image/凌波丽.jfif" alt="">
+                    <ul>
+                        <li class="ren_li1"><a href="#">凌波丽</a></li>
+                        <li class="ren_li2"><em>演员</em>配音演员</li>
+                        <li class="ren_li3">淡蓝色的头发，红色的眼眸。只爱食素的她就读于第三新东京市市立第一中学2年A班。 她是EVA第一适格者，零号机的专属驾驶员，驾驶零号机迎战使徒，真嗣母亲唯的半复制体，体内拥有着第二使徒莉莉丝的灵魂。</li>
+                    </ul>
+                    
+                </div>
+                <hr>
+                <div class="renwu">
+                    <img src="../image/明日香.jfif" alt="">
+                    <ul>
+                        <li class="ren_li1"><a href="#">明日香</a></li>
+                        <li class="ren_li2"><em>演员</em>配音演员</li>
+                        <li class="ren_li3">她只有四分之一的日本血统，所以外表看似欧洲人。虽然她在德国出生，也在那里长大，但她的国籍是美国。在青少年时获得学士学位。惣流·明日香·兰格蕾的名字来源于旧日本海军飞龙级航母苍龙号（日文与“惣流”同音）和美国海军的独立级轻型航母Langley（兰格利）号。</li>
+                    </ul>
+                
+                </div>
+                <hr>
+
+                <div class="renwu">
+                    <img src="../image/碇源堂.jfif" alt="">
+                    <ul>
+                        <li class="ren_li1"><a href="#">碇源堂</a></li>
+                        <li class="ren_li2"><em>演员</em>配音演员</li>
+                        <li class="ren_li3">NERV司令官，碇真嗣的父亲，也是整个“人类补完计划”和EVA研究计划的负责人，卵化亚当的持有者。原名六分仪源度，戴着一幅深色反光眼镜，让人摸不透他的心思，给人极度神秘的感觉。他的个性冷酷而不择手段，甚至对自己的儿子也从来不闻不问，只是不断下达命令。</li>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="renwu">
+                    <img src="../image/葛城美里.jfif" alt="">
+                    <ul>
+                        <li class="ren_li1"><a href="#">葛城美里</a></li>
+                        <li class="ren_li2"><em>演员</em>配音演员</li>
+                        <li class="ren_li3">29岁。NERV特务机关本部战术作战部作战局成员，也是三个驾驶员的直属上司。她的父亲原来也是NERV的成员，但她憎恨父亲为了工作忽略家庭。在第二次冲击时，她在NERV工作的父亲以自己的牺牲救了她一命，被救回之后却有一段期间罹患了失语症。她是赴南极的葛城探险队的唯一生还者，是少数目击过“第二次冲击”的人。为了复仇她也加入了NERV，打算以自己的力量打倒使徒。身为战斗指挥单位的最高负责人，在电视版中一开始是上尉，12集（漫画版第五集）中升等为少校。</li>
+                    </ul>
+                </div>
+          
+            <hr>
+
+            <div class="renwu">
+                <img src="../image/渚薰.jfif" alt="">
+                <ul>
+                    <li class="ren_li1"><a href="#">渚薰</a></li>
+                    <li class="ren_li2"><em>演员</em>配音演员</li>
+                    <li class="ren_li3">被SEELE送到NERV作为第5适格者。其真实身份是第十七使徒——自由使徒，拥有人类的外表，同时具有使徒的全部能力。能与EVA系列达到惊人的同步率。</li>
+                </ul>
+        </div>
+        <hr>
+        </div>
     <!-- eva说明结束 -->
+
+        <!-- 尾栏开始 -->
+
+        <div class="tila">
+           
+            <div class="dd_tila">
+               <div class="box1">
+                <dl>
+                    <dt>开发人员和it</dt>
+                    <dd>QianTao</dd>
+                    <dd>设计</dd>
+                    <dd>Tao</dd>
+                </dl>
+           </div>
+    
+           <div class="box1">
+            <dl>
+                <dt>关于我们</dt>
+                <dd>邮箱：3418201751@qq.com</dd>
+                <dd>电话：1551829290</dd>
+                <dd>ikun</dd>
+                <dd>小黑子</dd>
+            </dl>
+       </div>
+    </div>
+           
+
+
+   <div class="box2">
+    <p>&copy;22206班钱涛期末作业</p>
+   </div>
+            
+        </div>
+        <!-- 围栏结束 -->
+
+
+
+
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script>
+       var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+     </script>
 </body>
 
 </html> 
